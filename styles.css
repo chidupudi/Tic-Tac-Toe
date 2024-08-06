@@ -9,6 +9,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.mode-selection {
+    margin-bottom: 20px;
+}
+
+.mode-selection button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
 .game-board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
