@@ -9,11 +9,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.mode-selection {
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.mode-selection, .theme-toggle {
     margin-bottom: 20px;
 }
 
-.mode-selection button {
+.mode-selection button, .theme-toggle button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -38,6 +43,11 @@ body {
     border: 2px solid #333;
     font-size: 37px;
     cursor: pointer;
+}
+
+body.dark-mode .cell {
+    background-color: #555;
+    border-color: #fff;
 }
 
 .status {

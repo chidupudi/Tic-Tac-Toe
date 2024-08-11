@@ -212,5 +212,9 @@ function checkWin(board, player) {
     return false;
 }
 
+function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+}
+
 cells.forEach(cell => cell.addEventListener('click', handleCellClick));
 statusDisplay.innerHTML = `Please select a mode to start the game.`;
